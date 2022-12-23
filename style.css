@@ -384,16 +384,22 @@ section {
   background: #1a4341;
   transform: translate(60px);
   animation: 2s alternate linear infinite slideL; 
+  border: 2px solid #000;
 }
 #leafTwo {
   background: #dddddd;
   transform: translate(-20px);
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
 }
 
 #leafThree {
   background: #f63a3a;
   transform: translate(-105px);
   animation: 2s alternate 1s linear infinite slideR;
+  border-top: 2px solid #000;
+  border-right: 2.5px solid #000;
+  border-bottom: 2.5px solid #000;
 }
 .diamond {
   background: #ff7ae4;
