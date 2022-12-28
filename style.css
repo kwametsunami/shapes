@@ -1025,7 +1025,8 @@ section {
   width: 10px;
   height: 10px;
   border-radius: 10px;
-  background: rgb(183, 183, 183);
+  background: #b7b7b7;
+  border: 1px double #6d6d6d;
   position: absolute;
 }
 .rightSide {
@@ -1137,11 +1138,11 @@ section {
 }
 .lever {
   height: 10px;
-  width: 17.5px;
+  width: 14.5px;
   background: #212121;
   border: 2px solid #000;
   position: absolute;
-  left: 0px;
+  left: 1.5px;
   top: 35px;
 }
 /* animations */
