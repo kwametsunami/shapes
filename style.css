@@ -697,7 +697,7 @@ section {
 }
 
 .w-keyC {
-  animation: 2.5s linear 0.05 infinite playing;
+  animation: 2.5s linear 0.05s infinite playing;
 }
 
 .w-keyD {
@@ -1155,10 +1155,12 @@ section {
   justify-content: space-between;
   width: 350px;
   padding-top: 35px;
+  position: relative;
+  z-index: 5;
 }
 
 .wheel {
-  border: 10px solid black;
+  border: 10px inset #232323;
   border-radius: 125px;
   width: 125px;
   height: 125px;
@@ -1178,8 +1180,19 @@ section {
   animation: 5s linear infinite riding;
 }
 
+.chain {
+  width: 110px;
+  height: 46px;
+  border: 3px solid #272727;
+  position: absolute;
+  z-index: 3;
+  transform: translateX(-50px) translateY(0.5px);
+  border-radius: 65px 70px 70px 65px;
+}
+
 .spoke {
   background: #bcbcbc;
+  border: .5px solid #464646;
   position: absolute;
 }
 
@@ -1276,7 +1289,7 @@ section {
   height: 100px;
   border: 3px solid #ed469c;
   background-color: #ed469c;
-  position: absolute;
+  position: relative;
   transform: translateY(-40px) translateX(45px) rotate(100deg);
   z-index: 5;
 }
@@ -1284,7 +1297,8 @@ section {
 .seatPost {
   width: 7px;
   height: 35px;
-  background: grey;
+  background: #cbcbcb;
+  border: 1.5px solid #aeabab;
   position: absolute;
   top: -20px;
   transform: translateX(-6px) translateY(-15px) rotate(350deg);
@@ -1293,7 +1307,7 @@ section {
 .seat {
   width: 45px;
   height: 15px;
-  background: black;
+  background: #2e2e2e;
   transform: translateX(-21px) translateY(-10px) rotate(359deg);
   border-radius: 85px 5px 100px 5px;
 }
@@ -1305,6 +1319,7 @@ section {
   border-radius: 5px 5px 5px 5px;
   background-color: #ed469c;
   position: absolute;
+  z-index: -6;
   transform: translateX(-68px) translateY(5px) rotate(290deg);
 }
 
@@ -1313,10 +1328,12 @@ section {
   width: 40px;
   border-radius: 50px;
   border: 2px solid #bcbcbc;
-  transform: translateX(-19px) translateY(110px);
+  transform: translateX(-22px) translateY(76px);
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: -5;
 }
 
 .crSpindle {
@@ -1325,7 +1342,7 @@ section {
   border-radius: 100%;
   background: #bcbcbc;
   transform: rotate(0deg);
-  /* animation: 5s linear infinite riding; */
+  animation: 12s linear infinite riding;
 }
 
 .spindleArm {
@@ -1364,25 +1381,40 @@ section {
 
 .pedalArm {
   width: 7px;
-  height: 100px;
+  height: 30px;
   background: #bcbcbc;
-  transform: translateX(4px) translateY(-141px) rotate(330deg);
+  transform: translateX(1px) translateY(-125px) rotate(350deg);
   border-radius: 5px 5px 0 0;
+}
+
+.pedalArmBack {
+  width: 7px;
+  height: 30px;
+  background: #bcbcbc;
+  transform: translateX(203px) translateY(65px) rotate(0deg);
+  border-radius: 5px 5px 0 0;
+  position: absolute;
+  z-index: -5;
+  transform-origin: top;
+  animation: 12s linear infinite spindleBack;
 }
 
 .pedal {
   width: 20px;
   height: 7px;
-  background: black;
+  background: #4c4c4c;
+  border: 2px ridge #000000;
+  border-radius: 2px;
   transform: rotate(0deg) translateX(-7px) translateY(0px);
 }
 
 .ped1 {
-  z-index: 10;
+  position: relative;
+  z-index: -5;
 }
 
 .ped2 {
-  transform: rotate(0deg) translateX(-7px) translateY(86px);
+  transform: rotate(0deg) translateX(-7px) translateY(28px);
 }
 
 .topTube {
@@ -1408,7 +1440,8 @@ section {
 .stem {
   width: 7px;
   height: 22px;
-  background: #7b7b7b;
+  background: #cbcbcb;
+    border: 1.5px solid #aeabab;
   transform: translateX(-2px) translateY(-20px) rotate(347deg);
   z-index: 1;
   position: relative;
@@ -1417,7 +1450,7 @@ section {
 .stemBend {
   width: 7px;
   height: 22px;
-  background: #7b7b7b;
+  background: #cbcbcb;
   transform: translateX(-11px) translateY(-46px) rotate(60deg);
   border-radius: 5px 5px 5px 0;
 }
@@ -1425,7 +1458,7 @@ section {
 .handlebar {
   width: 30px;
   height: 30px;
-  border: 10px solid yellow;
+  border: 10px solid #f5f54a;
   border-radius: 10px 16px 7px 30px;
   border-left: none;
   border-bottom: none;
@@ -1436,7 +1469,7 @@ section {
   width: 29px;
   height: 10px;
   /* background: orange; */
-  border: 10px solid yellow;
+  border: 10px solid #f5f54a;
   border-left: none;
   border-bottom: none;
   transform: translateX(-11px) translateY(0px) rotate(280deg);
@@ -1665,5 +1698,14 @@ section {
   }
   100% {
     transform: rotate(-359deg);
+  }
+}
+
+@keyframes spindleBack {
+  0% {
+    transform: translateX(199px) translateY(62px) rotate(0deg);
+  }
+  100% {
+    transform: translateX(199px) translateY(62px) rotate(-359deg);
   }
 }
