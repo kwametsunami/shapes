@@ -376,15 +376,15 @@ section {
   margin: 0 auto;
 }
 .leafLine {
-    background: #222222;
-    width: 100%;
-    height: 5px;
-    border-radius: 50px;
+  background: #222222;
+  width: 100%;
+  height: 5px;
+  border-radius: 50px;
 }
 #leafOne {
   background: #1a4341;
   transform: translate(60px);
-  animation: 2s alternate linear infinite slideL; 
+  animation: 2s alternate linear infinite slideL;
   border: 2px solid #000;
 }
 #leafTwo {
@@ -467,7 +467,7 @@ section {
 }
 
 #ghostLow:last-of-type {
-    animation: 6.5s ease-out 1.5s infinite ghostLow;
+  animation: 6.5s ease-out 1.5s infinite ghostLow;
 }
 
 #ghostHigh {
@@ -487,7 +487,7 @@ section {
 }
 
 #gCircleO:last-of-type {
-    animation: 3.5s ease-in-out alternate infinite ghostScaleL;
+  animation: 3.5s ease-in-out alternate infinite ghostScaleL;
 }
 
 #gCircleI {
@@ -697,53 +697,52 @@ section {
 }
 
 .w-keyC {
-    animation: 2.5s linear  infinite playing  
+  animation: 2.5s linear 0.05 infinite playing;
 }
 
 .w-keyD {
-    animation: 2.5s linear 0.2s infinite playing
+  animation: 2.5s linear 0.2s infinite playing;
 }
 
 .w-keyE {
-    animation: 2.5s linear 0.4s infinite playing
+  animation: 2.5s linear 0.4s infinite playing;
 }
 
 .w-keyF {
-    animation: 2.5s linear 0.5s infinite playing
+  animation: 2.5s linear 0.5s infinite playing;
 }
 
 .w-keyG {
-    animation: 2.5s linear 0.7s infinite playing
+  animation: 2.5s linear 0.7s infinite playing;
 }
 
 .w-keyA {
-    animation: 2.5s linear 0.9s infinite playing
+  animation: 2.5s linear 0.9s infinite playing;
 }
 
 .w-keyB {
-    animation: 2.5s linear 1.1s infinite playing
+  animation: 2.5s linear 1.1s infinite playing;
 }
 
 .b-keyC {
-    animation: 2.5s linear 0.1s infinite playingB
+  animation: 2.5s linear 0.1s infinite playingB;
 }
 
 .b-keyD {
-    animation: 2.5s linear 0.3s infinite playingB
+  animation: 2.5s linear 0.3s infinite playingB;
 }
 
 .b-keyF {
-    animation: 2.5s linear 0.6s infinite playingB
+  animation: 2.5s linear 0.6s infinite playingB;
 }
 
 .b-keyG {
-    animation: 2.5s linear 0.8s infinite playingB
+  animation: 2.5s linear 0.8s infinite playingB;
 }
 
 .b-keyA {
-    animation: 2.5s linear 1s infinite playingB
+  animation: 2.5s linear 1s infinite playingB;
 }
-
 
 .blackKeys {
   display: flex;
@@ -809,78 +808,78 @@ section {
   right: -100px;
   border-bottom: 130px solid #ff6d00;
 }
-  .speakers {
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    background: #f1e55f;
-  }
-  .speakerContainer {
-    display: flex;
-    flex-direction: space-between;
-  }
-  .speaker {
-    background: #2b2a2a;
-    height: 150px;
-    width: 110px;
-    border: 5px solid #000;
-    border-radius: 5px;
-    margin: 0 35px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .bottomCone {
-    width: 75px;
-    height: 75px; 
-    background: #fff;
-    border-radius: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-  }
-  .bottomConeInner {
-    width: 55px;
-    height: 55px;
-    border-radius: 50px;
-    background: rgb(52, 52, 52);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: 2.25s linear infinite thump;
-  }
-  .innerInner {
-    width: 25px;
-    height: 25px;
-    border-radius: 50px;
-    background: #F5D6B4;
-  }
-  .topCone {
-    width: 45px;
-    height: 45px;
-    margin: 5px 0;
-    border-radius: 50px;
-    background: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .topConeInner {
-    width: 20px;
-    height: 20px;
-    border-radius: 50px;
-    background: rgb(52, 52, 52)
-  }
-  .turntable {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #FFA500;
-  }
+.speakers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f1e55f;
+}
+.speakerContainer {
+  display: flex;
+  flex-direction: space-between;
+}
+.speaker {
+  background: #2b2a2a;
+  height: 150px;
+  width: 110px;
+  border: 5px solid #000;
+  border-radius: 5px;
+  margin: 0 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottomCone {
+  width: 75px;
+  height: 75px;
+  background: #fff;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.bottomConeInner {
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+  background: rgb(52, 52, 52);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: 2.25s linear infinite thump;
+}
+.innerInner {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  background: #f5d6b4;
+}
+.topCone {
+  width: 45px;
+  height: 45px;
+  margin: 5px 0;
+  border-radius: 50px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topConeInner {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background: rgb(52, 52, 52);
+}
+.turntable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffa500;
+}
 .plinth {
-  background: #E1E1E1;
+  background: #e1e1e1;
   width: 300px;
   height: 200px;
   border-radius: 5px;
@@ -913,14 +912,14 @@ section {
   background: black;
   border: 2px solid #c1c1c1;
   border-radius: 20px;
-  position: absolute; 
+  position: absolute;
   bottom: 40px;
   left: 5px;
 }
 .start {
   width: 30px;
   height: 20px;
-  background: #EAEAEA;
+  background: #eaeaea;
   border: 4px inset #191919;
   position: absolute;
   bottom: 15px;
@@ -950,14 +949,14 @@ section {
 .platterContainer {
   width: 225px;
   height: 180px;
-  background: #E1E1E1;
+  background: #e1e1e1;
 }
 .platter {
   width: 170px;
   height: 170px;
   border-radius: 180px;
   border: 5px solid grey;
-  background: #3383FF;
+  background: #3383ff;
   margin: 0 auto;
   position: relative;
   display: flex;
@@ -1017,7 +1016,7 @@ section {
 }
 .labelR {
   width: 30px;
-  height: 60px; 
+  height: 60px;
   border-radius: 0 60px 60px 0;
   background: green;
 }
@@ -1032,7 +1031,7 @@ section {
 .rightSide {
   width: 75px;
   height: 180px;
-  background: #E1E1E1;
+  background: #e1e1e1;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -1071,13 +1070,12 @@ section {
   height: 25px;
   width: 25px;
   border-radius: 2px;
-  background: #DDDDDD;
+  background: #dddddd;
   border-top: 5px solid #222222;
   border-bottom: 4px solid #222222;
   position: absolute;
   left: -7px;
   top: -12.5px;
-  
 }
 .armBend {
   height: 40px;
@@ -1119,7 +1117,7 @@ section {
 .controls {
   height: 80px;
   width: 25px;
-  background: #DDDDDD;
+  background: #dddddd;
   border: 4px inset rgba(123, 123, 123, 0.867);
   border-radius: 5px;
   bottom: 10px;
@@ -1134,7 +1132,6 @@ section {
   width: 5px;
   background: rgb(91, 91, 91);
   margin: 0 auto;
-  
 }
 .lever {
   height: 10px;
@@ -1145,6 +1142,307 @@ section {
   left: 1.5px;
   top: 35px;
 }
+
+.bike {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #5ff0df;
+}
+
+.wheelsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  padding-top: 35px;
+}
+
+.wheel {
+  border: 10px solid black;
+  border-radius: 125px;
+  width: 125px;
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wheelHub {
+  width: 15px;
+  height: 15px;
+  border: 5px solid #bcbcbc;
+  background: #bcbcbc;
+  border-radius: 50px;
+  position: relative;
+  transform: rotate(0deg);
+  animation: 5s linear infinite riding;
+}
+
+.spoke {
+  background: #bcbcbc;
+  position: absolute;
+}
+
+.s1 {
+  transform: translateX(1px) translateY(-50px) rotate(66deg);
+  width: 3px;
+  height: 105px;
+}
+
+.s2 {
+  transform: translateX(1px) translateY(-50px) rotate(154deg);
+  width: 3px;
+  height: 105px;
+}
+
+.s3 {
+  transform: translateX(1px) translateY(-50px) rotate(286deg);
+  width: 3px;
+  height: 105px;
+}
+
+.s4 {
+  transform: translateX(1px) translateY(-50px) rotate(21deg);
+  width: 3px;
+  height: 105px;
+}
+
+.s5 {
+  transform: translateX(1px) translateY(-50px) rotate(42deg);
+  width: 3px;
+  height: 105px;
+}
+
+.s6 {
+  transform: translateX(1px) translateY(-50px) rotate(310deg);
+  width: 3px;
+  height: 105px;
+}
+
+.s7 {
+  transform: translateX(1px) translateY(-50px) rotate(358deg);
+  width: 3px;
+  height: 105px;
+}
+
+.s8 {
+  transform: translateX(1px) translateY(-50px) rotate(87deg);
+  width: 3px;
+  height: 105px;
+}
+
+.frameConnectF {
+  transform: translateX(-10px) translateY(0px);
+}
+
+.frameConnectR {
+  transform: translateX(-10px) translateY(0px);
+}
+
+.fork {
+  width: 7px;
+  height: 75px;
+  border: 3px solid #ed469c;
+  border-radius: 0px 15px 25px 5px;
+  background-color: #ed469c;
+  position: absolute;
+  top: -65px;
+  transform: translateX(13px) translateY(-3px) rotate(24deg);
+}
+
+.rearForkT {
+  width: 6px;
+  height: 112px;
+  border: 3px solid #ed469c;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #ed469c;
+  position: absolute;
+  transform: translateX(-30px) translateY(-102px) rotate(328deg);
+}
+
+.rearForkB {
+  width: 6px;
+  height: 86px;
+  border: 3px solid #ed469c;
+  border-radius: 5px 5px 15px 702px;
+  background-color: #ed469c;
+  position: absolute;
+  transform: translateX(-41px) translateY(-41px) rotate(-90deg);
+  z-index: 5;
+}
+
+.frame {
+  width: 8px;
+  height: 100px;
+  border: 3px solid #ed469c;
+  background-color: #ed469c;
+  position: absolute;
+  transform: translateY(-40px) translateX(45px) rotate(100deg);
+  z-index: 5;
+}
+
+.seatPost {
+  width: 7px;
+  height: 35px;
+  background: grey;
+  position: absolute;
+  top: -20px;
+  transform: translateX(-6px) translateY(-15px) rotate(350deg);
+}
+
+.seat {
+  width: 45px;
+  height: 15px;
+  background: black;
+  transform: translateX(-21px) translateY(-10px) rotate(359deg);
+  border-radius: 85px 5px 100px 5px;
+}
+
+.bottomTube {
+  width: 8px;
+  height: 136.5px;
+  border: 3px solid #ed469c;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #ed469c;
+  position: absolute;
+  transform: translateX(-68px) translateY(5px) rotate(290deg);
+}
+
+.chainRing {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  border: 2px solid #bcbcbc;
+  transform: translateX(-19px) translateY(110px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crSpindle {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #bcbcbc;
+  transform: rotate(0deg);
+  /* animation: 5s linear infinite riding; */
+}
+
+.spindleArm {
+  background: #bcbcbc;
+}
+
+.sa1 {
+  transform: translateX(-5px) translateY(-2px) rotate(66deg);
+  width: 5px;
+  height: 20px;
+}
+
+.sa2 {
+  transform: translateX(-4px) translateY(-32px) rotate(137deg);
+  width: 5px;
+  height: 20px;
+}
+
+.sa3 {
+  transform: translateX(9px) translateY(-51px) rotate(210deg);
+  width: 5px;
+  height: 20px;
+}
+
+.sa4 {
+  transform: translateX(11px) translateY(-61px) rotate(287deg);
+  width: 5px;
+  height: 20px;
+}
+
+.sa5 {
+  transform: translateX(2px) translateY(-76px) rotate(17deg);
+  width: 5px;
+  height: 20px;
+}
+
+.pedalArm {
+  width: 7px;
+  height: 100px;
+  background: #bcbcbc;
+  transform: translateX(4px) translateY(-141px) rotate(330deg);
+  border-radius: 5px 5px 0 0;
+}
+
+.pedal {
+  width: 20px;
+  height: 7px;
+  background: black;
+  transform: rotate(0deg) translateX(-7px) translateY(0px);
+}
+
+.ped1 {
+  z-index: 10;
+}
+
+.ped2 {
+  transform: rotate(0deg) translateX(-7px) translateY(86px);
+}
+
+.topTube {
+  width: 8px;
+  height: 130px;
+  border: 3px solid #ed469c;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #ed469c;
+  position: absolute;
+  transform: translateX(-60px) translateY(-54px) rotate(260deg);
+}
+
+.headTube {
+  width: 10px;
+  height: 35px;
+  background: #ed469c;
+  transform: translateX(-16px) translateY(-26px) rotate(101deg);
+  border-radius: 3px 0 0 0;
+  z-index: 2;
+  position: relative;
+}
+
+.stem {
+  width: 7px;
+  height: 22px;
+  background: #7b7b7b;
+  transform: translateX(-2px) translateY(-20px) rotate(347deg);
+  z-index: 1;
+  position: relative;
+  border-radius: 0 5px 0 0;
+}
+.stemBend {
+  width: 7px;
+  height: 22px;
+  background: #7b7b7b;
+  transform: translateX(-11px) translateY(-46px) rotate(60deg);
+  border-radius: 5px 5px 5px 0;
+}
+
+.handlebar {
+  width: 30px;
+  height: 30px;
+  border: 10px solid yellow;
+  border-radius: 10px 16px 7px 30px;
+  border-left: none;
+  border-bottom: none;
+  transform: translateX(-40px) translateY(-54px) rotate(257deg);
+}
+
+.hbContinue {
+  width: 29px;
+  height: 10px;
+  /* background: orange; */
+  border: 10px solid yellow;
+  border-left: none;
+  border-bottom: none;
+  transform: translateX(-11px) translateY(0px) rotate(280deg);
+  border-radius: 55px 67px 10px 75px;
+}
+
 /* animations */
 
 @keyframes spin {
@@ -1166,197 +1464,206 @@ section {
 }
 
 @keyframes slideL {
-    from {
-        transform: translateX(60px)
-    }
-    to {
-        transform: translateX(50px)
-    }
+  from {
+    transform: translateX(60px);
+  }
+  to {
+    transform: translateX(50px);
+  }
 }
 
 @keyframes slideR {
-    from {
-        transform: translateX(-105px);
-    }
-    to {
-        transform: translateX(-115px);
-    }
+  from {
+    transform: translateX(-105px);
+  }
+  to {
+    transform: translateX(-115px);
+  }
 }
 
 @keyframes upDown {
-    0% {
-        transform: translateY(0px)
-    }
-    20% {
-        transform: translateY(-8px)
-    }
-    60% {
-        transform: translateY(8px)
-    }
-    90% {
-        transform: translateY(-2.5px)
-    }
+  0% {
+    transform: translateY(0px);
+  }
+  20% {
+    transform: translateY(-8px);
+  }
+  60% {
+    transform: translateY(8px);
+  }
+  90% {
+    transform: translateY(-2.5px);
+  }
 }
 
 @keyframes playing {
-    0% {
-        background: #ffffff;
-        transform: translateY(0px);
-    }
-    4% {
-        background: #ffed24;
-        transform: translateY(2px);
-    }
-    6% {
-        background: #ffffff;
-        transform: translateY(0px);
-    }
+  0% {
+    background: #ffffff;
+    transform: translateY(0px);
+  }
+  4% {
+    background: #ffed24;
+    transform: translateY(2px);
+  }
+  6% {
+    background: #ffffff;
+    transform: translateY(0px);
+  }
 }
 
 @keyframes playingB {
-    0% {
-        background: #191919;
-        transform: translateY(12.5px);
-    }
-    4% {
-        background: #fd4602;
-        transform: translateY(14.5px);
-    }
-    6% {
-        background: #191919;
-        transform: translateY(12.5px);
-    }
+  0% {
+    background: #191919;
+    transform: translateY(12.5px);
+  }
+  4% {
+    background: #fd4602;
+    transform: translateY(14.5px);
+  }
+  6% {
+    background: #191919;
+    transform: translateY(12.5px);
+  }
 }
 
 @keyframes ghostLow {
-    0% {
-        height: 150px;
-    }
-    35% {
-        height: 185px;
-    }
-    65% {
-        height: 145px;
-    }
-    80% {
-        height: 160px;
-    }
+  0% {
+    height: 150px;
+  }
+  35% {
+    height: 185px;
+  }
+  65% {
+    height: 145px;
+  }
+  80% {
+    height: 160px;
+  }
 }
 
 @keyframes ghostHigh {
-    0% {
-        height: 250px;
-    }
-    35% {
-        height: 265px;
-    }
-    60% {
-        height: 240px;
-    }
-    85% {
-        height: 260px;
-    }
+  0% {
+    height: 250px;
+  }
+  35% {
+    height: 265px;
+  }
+  60% {
+    height: 240px;
+  }
+  85% {
+    height: 260px;
+  }
 }
 
 @keyframes ghostScaleL {
-    from {
-        transform: scale(1);
-        background: #a81a40;
-    }
-    to {
-        transform: scale(1.10);
-        background: #71011f;
-    }
+  from {
+    transform: scale(1);
+    background: #a81a40;
+  }
+  to {
+    transform: scale(1.1);
+    background: #71011f;
+  }
 }
 
 @keyframes ghostScaleH {
-    from {
-        transform: scale(1);
-        background: #ffed24;
-    }
-    to {
-        transform: scale(1.15);
-        background: #ed9f0e;
-    }
+  from {
+    transform: scale(1);
+    background: #ffed24;
+  }
+  to {
+    transform: scale(1.15);
+    background: #ed9f0e;
+  }
 }
 
 @keyframes blueDot {
-    0% {
-        transform: scale(1);
-    }
-    75% {
-        transform: scale(1.75);
-    }
-    80% {
-        transform: scale(0)
-    }
+  0% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.75);
+  }
+  80% {
+    transform: scale(0);
+  }
 }
 
 @keyframes bSq {
-    0% {
-        transform: translateY(0px) rotate(45deg);
-    }
-    20% {
-        transform: translateY(-8px) rotate(45deg);
-    }
-    60% {
-        transform: translateY(8px) rotate(55deg);
-    }
-    85% {
-        transform: translateY(0px) rotate(0deg);
-    }
+  0% {
+    transform: translateY(0px) rotate(45deg);
+  }
+  20% {
+    transform: translateY(-8px) rotate(45deg);
+  }
+  60% {
+    transform: translateY(8px) rotate(55deg);
+  }
+  85% {
+    transform: translateY(0px) rotate(0deg);
+  }
 }
 
 @keyframes sSq {
-    0% {
-        background: #e1f0f1;
-        transform: scale(1);
-        border: 0px solid #e1f0f1;
-        border-radius: 0px;
-    }
-    90% {
-        background: #101010;
-        transform: scale(1.1);
-        border: 5px solid #e1f0f1;
-        border-radius: 10px
-    }
-    100% {
-        background: #e1f0f1;
-        transform: scale(1);
-        border: 0px solid #e1f0f1;
-        border-radius: 0px;
-    }
+  0% {
+    background: #e1f0f1;
+    transform: scale(1);
+    border: 0px solid #e1f0f1;
+    border-radius: 0px;
+  }
+  90% {
+    background: #101010;
+    transform: scale(1.1);
+    border: 5px solid #e1f0f1;
+    border-radius: 10px;
+  }
+  100% {
+    background: #e1f0f1;
+    transform: scale(1);
+    border: 0px solid #e1f0f1;
+    border-radius: 0px;
+  }
 }
 
 @keyframes thump {
-    0% {
-        transform: scale(1)
-    }
-    20% {
-        transform: scale(1)
-    }
-    22% {
-        transform: scale(1.1)
-    }
-    24% {
-        transform: scale(1)
-    }
-    30% {
-        transform: scale(1)
-    }
-    32% {
-        transform: scale(1.1)
-    }
-    34% {
-        transform: scale(1)
-    }
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1);
+  }
+  22% {
+    transform: scale(1.1);
+  }
+  24% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1);
+  }
+  32% {
+    transform: scale(1.1);
+  }
+  34% {
+    transform: scale(1);
+  }
 }
 
 @keyframes nowPlaying {
-  0% { 
-    transform: rotate(0deg)
+  0% {
+    transform: rotate(0deg);
   }
   100% {
-    transform: rotate(359deg)
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes riding {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-359deg);
   }
 }
