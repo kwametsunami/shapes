@@ -1487,7 +1487,7 @@ section {
   border: 5px solid black;
   border-bottom: 10px solid black;
   background: yellow;
-  border-radius: 0px 25px 15px 20px;
+  border-radius: 0px 21px 15px 20px;
   display: flex;
   position: relative;
   justify-content: space-between;
@@ -1507,12 +1507,12 @@ section {
 
 .frontLight {
   height: 30px;
-  width: 17px;
+  width: 18px;
   border-radius: 5px;
   background: #e8e8e8;
   border: 5px solid black;
   position: absolute;
-  transform: translateX(216px) translateY(-17px);
+  transform: translateX(214px) translateY(-24px);
 }
 
 .fenderLine {
@@ -1522,6 +1522,25 @@ section {
   background: #000000;
   position: absolute;
   transform: translateX(-17px) translateY(-16px);
+}
+
+.middleLine {
+  width: 5px;
+  height: 30px;
+  border-radius: 5px;
+  background: #000000;
+  position: absolute;
+  transform: translateX(112px) translateY(-32px) rotate(0deg);
+}
+
+
+.doorhandle {
+  width: 5px;
+  height: 13px;
+  border-radius: 5px;
+  background: #000000;
+  position: absolute;
+  transform: translateX(135px) translateY(-32px) rotate(90deg);
 }
 
 .topFrame {
@@ -1669,7 +1688,7 @@ section {
   background: #474646;
   border: 5px groove #000000;
   position: relative;
-  top: 35px;
+  top: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
