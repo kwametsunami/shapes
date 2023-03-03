@@ -1493,6 +1493,8 @@ section {
   justify-content: space-between;
   padding: 0 12px;
   align-items: end;
+  transform: translateY(0px);
+  animation: 1s linear infinite truckBounce;
 }
 
 .rearLight {
@@ -1701,7 +1703,7 @@ section {
   align-items: center;
   justify-content: center;
   transform: translateY(0px);
-  /* animation: 1s linear infinite tireBounce; */
+  animation: 1s linear infinite tireBounce;
 }
 
 .rim {
@@ -1974,15 +1976,24 @@ section {
   }
 }
 
+@keyframes truckBounce {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(-1px);
+  }
+}
+
 @keyframes tireBounce {
   0% {
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(-4px);
-  }
-  65% {
-    transform: translateY(-1px);
+    transform: translateY(3px);
   }
   100% {
     transform: translateY(1px);
