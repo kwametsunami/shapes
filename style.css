@@ -1486,7 +1486,7 @@ section {
   width: 250px;
   border: 5px solid black;
   border-bottom: 10px solid black;
-  background: yellow;
+  background: #FFCC33;
   border-radius: 0px 21px 15px 20px;
   display: flex;
   position: relative;
@@ -1499,7 +1499,7 @@ section {
   height: 30px;
   width: 17px;
   border-radius: 5px;
-  background: red;
+  background: #f45959;
   border: 5px solid black;
   position: absolute;
   transform: translateX(-17px) translateY(-28px);
@@ -1509,10 +1509,18 @@ section {
   height: 30px;
   width: 18px;
   border-radius: 5px;
-  background: #e8e8e8;
+  background: #ecebeb;
   border: 5px solid black;
   position: absolute;
   transform: translateX(214px) translateY(-24px);
+}
+
+.lightLine {
+  height: 5px;
+  width: 12px;
+  background: #000000;
+  position: absolute;
+    transform: translateX(-2px) translateY(5px);
 }
 
 .fenderLine {
@@ -1594,7 +1602,7 @@ section {
   border: 5px solid rgb(0, 0, 0);
   border-right: none;
   border-bottom: none;
-  background: yellow;
+  background: #FFCC33;
   border-radius: 10px 2px 0 0;
   display: flex;
   justify-content: flex-start;
@@ -1622,7 +1630,7 @@ section {
   height: 0;
   border-style: solid;
   border-width: 50px 0 0 40px;
-  border-color: transparent transparent transparent yellow;
+  border-color: transparent transparent transparent #FFCC33;
   border-radius: 0px 0px 0px 0px;
 }
 
@@ -1726,7 +1734,7 @@ section {
   height: 60px;
   border-radius: 7px;
   border: 5px solid black;
-  background: yellow;
+  background: #FFCC33;
   position: absolute;
   left: -35px;
   top: -20px;
