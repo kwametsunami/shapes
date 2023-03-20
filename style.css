@@ -1160,7 +1160,7 @@ section {
 }
 
 .wheel {
-  border: 10px inset #232323;
+  border: 10px solid #232323;
   border-radius: 125px;
   width: 125px;
   height: 125px;
@@ -1696,7 +1696,7 @@ section {
   width: 65px;
   border-radius: 100%;
   background: #474646;
-  border: 5px groove #000000;
+  border: 5px solid #000000;
   position: relative;
   top: 30px;
   display: flex;
@@ -1740,6 +1740,22 @@ section {
   position: absolute;
   left: -35px;
   top: -20px;
+}
+
+.stickFigure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4172f9;
+}
+
+.body {
+  width: 45px; 
+  height: 60px;
+  border-radius: 5px;
+  background: white;
+  transform: translateX(0px) translateY(0px) rotate(25deg);
+  display: flex;
 }
 
 /* animations */
